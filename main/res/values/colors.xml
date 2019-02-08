@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#303030</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#006060</color>
+
+    <color name="black">#000000</color>
+    <color name="toolbar">#303030</color>
+    <color name="bg">#E9E9E9</color>
+    <color name="border">#606060</color>
+    <color name="fab">#000066</color>
+    <color name="list_name">#000000</color>
+    <color name="list_name_dulled">#909090</color>
+    <color name="task_name">#000000</color>
+    <color name="task_name_dulled">#A6A6A6</color>
+</resources>

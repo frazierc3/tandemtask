@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TandemTask</string>
+    <string name="edit">Rename</string>
+    <string name="delete">Delete</string>
+    <string name="check_all_tasks">Check All Tasks</string>
+    <string name="uncheck_all_tasks">Uncheck All Tasks</string>
+
+    <string name="options">Options</string>
+
+    <string name="reminder">Reminder</string>
+
+    <string name="about">About</string>
+    <string name="about_creator">Created by: Conner Frazier</string>
+    <string name="about_for">for CPT-265</string>
+    <string name="about_site1">For my other projects, please go to</string>
+    <string name="about_site2"><a href="http://www.ConnerFrazier.com">www.ConnerFrazier.com</a></string>
+</resources>

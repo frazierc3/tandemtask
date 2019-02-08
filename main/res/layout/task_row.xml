@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="15dp"
+    android:layout_marginLeft="15dp">
+
+    <CheckBox
+        android:id="@+id/cb_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@+id/iv_edit"
+        android:layout_toLeftOf="@+id/iv_edit"
+        android:button="@drawable/checkbox"
+        android:padding="11dp"
+        android:text="TaskName"
+        android:textColor="@color/list_name"
+        android:textSize="19sp" />
+
+    <ImageView
+        android:id="@+id/iv_edit"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_toStartOf="@+id/iv_delete"
+        android:layout_toLeftOf="@+id/iv_delete"
+        android:contentDescription="Rename Task Button"
+        android:padding="10dp"
+        android:src="@drawable/ic_edit" />
+
+    <ImageView
+        android:id="@+id/iv_delete"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:contentDescription="Delete Task Button"
+        android:padding="10dp"
+        android:src="@drawable/ic_delete" />
+
+</RelativeLayout>

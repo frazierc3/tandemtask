@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    tools:context=".About">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/about_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        android:background="@color/toolbar"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <TextView
+        android:id="@+id/about_tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:text="@string/about_creator"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/about_tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/about_tv1"
+        android:layout_marginBottom="100dp"
+        android:gravity="center_horizontal"
+        android:text="@string/about_for"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/about_tv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/about_tv2"
+        android:layout_marginBottom="5dp"
+        android:gravity="center_horizontal"
+        android:text="@string/about_site1"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/about_tv4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/about_tv3"
+        android:gravity="center_horizontal"
+        android:text="@string/about_site2"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+</RelativeLayout>
